@@ -18,7 +18,8 @@ If a valid ATM card is found, enter the 4 digit pin number. If PIN number is not
 
 Once a valid option for account is selected the user will be prompted to select an operation to be perfomred (See Balance/Deposit/Withdraw)
 
-A sample sequence of commands showing ATM insertion -> PIN entry -> Account selection -> view balance operation is shown below:
+A sample sequence of commands showing ATM insertion -> PIN entry -> Account selection -> view balance operation is shown below:  
+
 ![02_sample_sequence](https://user-images.githubusercontent.com/99900985/154532610-2224a29c-d658-438e-acc5-bb2397ed9e67.jpg)
 
 A deposit or withdraw operation will alter the total balance for that account in the bank's record. three operations can be performed on the checking account (see balance/deposit/withdraw) while only two operations can be performed in the savings account (see balance/deposit)
