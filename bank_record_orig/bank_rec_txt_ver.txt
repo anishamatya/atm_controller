@@ -1,0 +1,59 @@
+ATM card number >> 0000aaaa
+First >> F0
+Last >> L0
+Acc no (checking) >> 12345000
+Balance (checking) >> 3000
+Acc no (savings) >> 12345100
+Balance (savings) >> 5000
+Pin No >> 0
+-----
+
+ATM card number >> 0001aaaa
+First >> F1
+Last >> L1
+Acc no (checking) >> 12345001
+Balance (checking) >> 2000
+Acc no (savings) >> 12345101
+Balance (savings) >> 8000
+Pin No >> 1
+-----
+
+ATM card number >> 0002aaaa
+First >> F2
+Last >> L2
+Acc no (checking) >> 12345002
+Balance (checking) >> 6000
+Acc no (savings) >> 12345102
+Balance (savings) >> 3000
+Pin No >> 2
+-----
+
+ATM card number >> 0003aaaa
+First >> F3
+Last >> L3
+Acc no (checking) >> 12345003
+Balance (checking) >> 9000
+Acc no (savings) >> 13245103
+Balance (savings) >> 100000
+Pin No >> 3
+-----
+
+ATM card number >> 0004aaaa
+First >> F4
+Last >> L4
+Acc no (checking) >> 12345004
+Balance (checking) >> 8000
+Acc no (savings) >> 12345104
+Balance (savings) >> 2000
+Pin No >> 4
+-----
+
+ATM card number >> 0005aaaa
+First >> F5
+Last >> L5
+Acc no (checking) >> 12345005
+Balance (checking) >> 10000
+Acc no (savings) >> 12345105
+Balance (savings) >> 10000
+Pin No >> 5
+-----
