@@ -5,11 +5,12 @@ ATM controller assignment
 This program was built and tested using mingw32-gcc.exe (tdm-1) 5.1.0 in Codeblocks. This can be built in Windows CMD command line using the .bat script file.
 
 # How to build
-Open a cmd terminal in windows, go the project directory and run build_run.bat
+Open a cmd terminal in windows, go the project directory and run build_run.bat. Make sure mingw32-gcc.exe location is in the cmd terminal's PATH variable.
 
 # How to use
 At start the program will give two options. Enter 0 to run the ATM controller, or 1 to run tests.
-![01_enter_atm_mode](https://user-images.githubusercontent.com/99900985/154531327-13d49f63-7678-448f-8626-316021fd2d26.jpg)
+![01_enter_atm_mode](https://user-images.githubusercontent.com/99900985/154531327-13d49f63-7678-448f-8626-316021fd2d26.jpg)  
+
 Comments in the prompt will explain which option will do what operation
 
 Inserting an ATM card is simulated by entering an 8 character alphanumeric string. This alphanumeric string is compared against the record inside bank_rec_bin.dat, which represents the records in the bank. Is the alphanumeric string is in this record, the ATM card is considered to be valid. Otherwise the user is prompted to insert ATM card again.
@@ -26,7 +27,8 @@ A deposit or withdraw operation will alter the total balance for that account in
 
 # How to test
 Operation of the ATM controller can be tested for various types of input by using a sequence of inputs recorded in the atm_test_input.txt file. To run tests, select option 1 at the beginning of the program
-![03_test_menu](https://user-images.githubusercontent.com/99900985/154533286-0f7862d1-a9f6-4f35-a284-995b3015359e.jpg)
+![03_test_menu](https://user-images.githubusercontent.com/99900985/154533286-0f7862d1-a9f6-4f35-a284-995b3015359e.jpg)  
+
 For convenience of the tester the test menu also contains an option to view the entire record of the bank (this feature is not part of the ATM controller program and is purely a debugging and testing feature. IF feature can be easily removed from the source code if needed). This will show the entire content of bank_rec_bin.dat in text form. Select option 1 in this menu to run the automated tests. In the tests a sequence of inputs will be taken from the file atm_test_input.txt, they will be supplied to the ATM controller interface and the ATM controller's output and the expected output will be displayed. A screenshot of a sample test run is shown below:  
 
 ![04_test_run](https://user-images.githubusercontent.com/99900985/154534078-13d6a8dc-3f0d-4d1b-8496-657b3be3cccf.jpg)
@@ -59,9 +61,9 @@ User inputs for test are stored in the text file atm_test_input.txt. The test in
 6) Text string for comment, to show expected output of test
 
 # extra features
-A tool to generate a bank accoutn record file (bank_rec_bin.dat) is given in /tool. Compile tihs tool using /tool/build_tool.bat. The on screen instructions will explain which bank record entry is being entered. The first input should be the number of records you wish to enter, which will be followed by the actual bank record entries.
+A tool to generate a bank account record file (bank_rec_bin.dat) is given in /tool. Compile this tool using /tool/build_tool.bat. The on screen instructions will explain which bank record entry is being entered. The first input should be the number of records you wish to enter, which will be followed by the actual bank record entries.
 
-For convenience, a pristine copy of bank_rec_bin.dat that I used for my tests is given in /bank_record_orig. /bank_record_orig/bank_rec_txt_ver.txt shows the data in bank_rec_bin.dat. These files are only provided for reference and convenience.
+For convenience, a pristine copy of bank_rec_bin.dat that I used for my tests is given in /bank_record_orig. /bank_record_orig/bank_rec_txt_ver.txt shows the data in bank_rec_bin.dat in text format. These files are only provided for reference and convenience.
 
 
 
